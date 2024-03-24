@@ -1,0 +1,74 @@
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1070px;
+  box-sizing: border-box;
+  margin: auto
+}
+
+form>.orderView {
+  background-color: #F9D867;
+  width: 535px;
+  height: 445px;
+
+}
+
+form>.pizzaPicture {
+  background-color: #EEE7B8;
+  width: 535px;
+  height: 445px;
+}
+
+form>.ingredients {
+  background-color: #FFECAD;
+  height: 225px;
+  display: flex;
+  width: 100%;
+}
+
+.picture {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: auto;
+}
+
+.picture>.quarter {
+  background-image: url('pizza.webp');
+  width: 200px;
+  height: 200px;
+  background-size: 400px 400px;
+}
+
+.picture>.quarter:nth-child(2) {
+  background-position: -200px 0;
+}
+
+.picture>.quarter:nth-child(3) {
+  background-position: 0 -200px;
+}
+
+.picture>.quarter:nth-child(4) {
+  background-position: -200px -200px;
+}
+
+fieldset {
+  width: 100%;
+}
+
+.spaceOrderViewTxt {
+  margin-left: 30px;
+}
+
+#price-display {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.selected{
+  color:RED;
+}
+li{
+  cursor: pointer;
+}
+
